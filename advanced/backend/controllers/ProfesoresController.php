@@ -81,7 +81,7 @@ $model->foto = 'imagenes/'.$fileName.'.'.$model->file->extension;
 }
  $model->save();
 
-
+//prueba
 
             return $this->redirect(['view', 'id' => $model->profesor_id]);
         } else {
